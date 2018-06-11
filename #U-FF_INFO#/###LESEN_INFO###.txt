@@ -1,0 +1,162 @@
+================================================================================
+   __  __      ____________   __  ___          __                 __  
+  / / / /     / ____/ ____/  /  |/  /___  ____/ /___  ____ ______/ /__
+ / / / /_____/ /_  / /_     / /|_/ / __ \/ __  / __ \/ __ `/ ___/ //_/
+/ /_/ /_____/ __/ / __/    / /  / / /_/ / /_/ / /_/ / /_/ / /__/ ,<   
+\____/     /_/   /_/      /_/  /_/\____/\__,_/ .___/\__,_/\___/_/|_|  
+                                            /_/                       
+[U-FF] Ultimate-FrOnT FiGhTeR 
+------------------------------
+config Bearbeitungen sowie Mod Einstellungen: 
+unhappyangel83 
+Hompage für Fragen, Hilfe, Tipps und Tricks: 
+www.gamers-mod.de 
+================================================================================ 
+Bearbeiten Empfohlen mit Notepad+
+https://notepad-plus-plus.org/
+------------------------------
+------------------------------
+WICHTIG:
+Im World of Tanks Ordner den "mods" und "res_mods" Ordner löschen oder umbenennen!
+------------------------------
+------------------------------
+Mod Liste und Einstellungen
+*WICHTIG: nach jeder Einstellung die "in den Dateien" gemacht wird, muss das Spiel neu gestartet werden!* 
+*Besser erst das Spiel aus machen und dann die Einstellungen "in den Dateien" machen.*
+------------------------------ 
+Inhalt vom Ordner "#U-FF_Wichtig_Zusatz#": 
+
+- NET. Framework installer v. 3.5 (im rar Ordner in: #U-FF_Wichtig_Zusatz#)
+fals NET. Framework nicht auf dem PC installiert ist. (min. v.3.5) 
+
+- WoT Cach Cleaner (im rar Ordner in: #U-FF_Wichtig_Zusatz#)
+*Nur eine Option. KEINE Garantie* 
+
+- ClearCache 
+Eine ausführbare "bat" Datei zum einfachen WoT Cach leeren!
+*bei langen Lade Problemen im Spiel oder beim Start des Spiels.*
+*beim nächsten WoT Start kann das laden etwas länger dauern da die Grunddatein neu geschrieben werden.*
+
+- WGCheck_EU 
+dient der Fehlerprüfung 
+*zb. fehlende oder beschädigte Datein im jeweiligen Spiel*
+------------------------------ 
+Mod Liste: 
+
+- Colored hits «Paintball» (Damage Sticker) 
+*3 Farben: Grün = kein Treffer/Durchschlag - Rot = Treffer/Durchschlag - Gelb = Treffer/Explusionstreffer*
+
+- mod.Session Statistic 
+(in Garage rechts unten auf Mitteilungszenter Info von gefahrenen Gefechten mit Werten) 
+*täglicher Auto reset* 
+
+- mod.Vertical Techtree 
+(in Garage unter Forschung den gesammten Forschungsbaum ändern) 
+*Einstellbar rechts unten neben Mitteilungszenter Button* 
+*Ein/Aus in diesem Fenster "rechts oben" auf grüne Lampe* 
+
+- mod.Pathfinder 
+(InGame Linien Anzeige für Spezial Positionen) 
+*Einstellbar rechts unten neben Mitteilungszenter Button* 
+*Ein/Aus in diesem Fenster "rechts oben" auf grüne Lampe*
+
+- InGame Live WN8 Calulator 
+(WN8 Berechnung, DMG gemacht, EFF=Effizienz, 
+Großkaliber Anzeige + wieviel Schaden man machen muss "zählt dementsprechend runter bis auf 0") 
+
+- Gunmark Mod 
+Diese Mod zeigt Ingame Live die Gunmark an. 
+(erste Zahlen abschnitt = aktuell erspielter %Wert - zweite Zahlen abschnitt = derzeit haben %Wert)
+
+- Zoomstufen: 2, 4, 8, 16, 20, 24 
+
+- Arcade Zoomout: 2 bis 400 
+
+- Arty Zoomout: 10 bis 400 
+
+Sixth Sense (Spott Bild) Dauer: 2 Sek. 
+-> Bild sind Brueste ;-) 
+
+- Speichere Zoom Position 
+(d.h. bei Ansicht wechsel mit Strg wird die Zoom position in der Sniper Ansicht beibehalten) 
+
+- Effektiver Penetration indikator 
+(zeigt die Panzerung auf dem gegner an. Je wo man hin zielt ändert sich der Wert und die Farbe) 
+*Farben: Rot - Orange - Grün* 
+
+- Gefechtsbutton geändert in "GO-PayToWin" 
+
+- Panzerreihe in der garage sind auf 2 Spalten gesetzt. 
+(weniger scrollen ;-) ) 
+
+- CrewExtendet hinzugefügt 
+(In Garage links die Crew: wird angezeigt wieviel Gefechte noch gefahren werden müssen 
+und wieviel EXP fehlt bis das Perk fertig ist.) 
+*Einstellbar rechts unten neben Mitteilungszenter Button* 
+*Ein/Aus in diesem Fenster "rechts oben" auf grüne Lampe* 
+
+- wgmutex
+Erlaubt es WoT mehr als einmal "gleichzeitig" zu starten und zu nutzen.
+
+- weitere Auflistungen folgen ...
+
+================================================================================
+Einstellungen:
+------------------------------
+Bearbeiten Empfohlen mit Notepad+
+https://notepad-plus-plus.org/
+------------------------------
+
+- Zoomstufen 
+World of Tanks\mods\configs\pmod "DATEI: zoomX" 
+
+dort Zeile 10 die Zahlen dementsprechend ändern. 
+*kleiner als 2 und größer als 60 ist nicht möglich* 
+------------------------------
+
+- Zoomout Arcade-Arty 
+World of Tanks\mods\configs\pmod "DATEI: zoomDistance" 
+
+dort Zeile 10 die Zahlen dementsprechend ändern. 
+für Normal und Sniper Ansicht 
+*kleiner als 2 und größer als 400 ist nicht möglich* 
+
+dort Zeile 14 die Zahlen dementsprechend ändern. 
+für Arty Ansicht 
+*kleiner als 2 und größer als 400 ist nicht möglich* 
+------------------------------
+- Gunmark Mod
+Ingame verschiebbar mit: Strg oder LAlt halten und per linksklick halten verschieben.
+(Standart rechts oben)
+------------------------------
+
+Tipp: auf max. 400 lassen da man so eine wahnsinnig bessere Übersicht bekommt. 
+Vorallem nützlich wenn man im Team fährt.
+
+------------------------------
+- Gefechtsbutton 
+World of Tanks\res_mods\0.9.20.1\scripts\client\gui\mods "DATEI: mod_lobby_fight_button" 
+
+dort Zeile 3 die den text in den "" dementsprechend ändern. 
+------------------------------
+
+Auto login:
+World_of_Tanks\mods\configs\pmod  "DATEI: loginWindow" 
+
+dort Zeile 9 die das false in true ändern. 
+sieht so aus: "autoLogin": false, -ändern in- "autoLogin": true, 
+
+*NUR das "false/true" ändern!* 
+*true = Autologin - false= selbst auf button drücken* 
+------------------------------
+
+- Tank Info Panel (Standartmässig Aktiviert)
+*Einstellbar rechts unten neben Mitteilungszenter Button* 
+*Ein/Aus in diesem Fenster "rechts oben" auf grüne Lampe*
+> Show Panel for Allied Tanks. = eigene Teammitglieder Anzeige 
+> Show Panel for Enemy Tanks. = Gegner Anzeige 
+> Show own Tank Stats on ALT Key. = eigene Anzeige per ALT drücken 
+x - Breite/vertikal
+y - Höhe/horizontal
+------------------------------
+================================================================================
